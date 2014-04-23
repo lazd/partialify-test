@@ -1,0 +1,10 @@
+.s-Button {
+  padding: 1em;
+  margin: 0;
+
+  background: gray;
+  border: 1px solid black;
+
+  font-size: 1em;
+  color: white;
+}
