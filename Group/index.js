@@ -1,6 +1,7 @@
-require('insert-css')(require('../css/index.css'));
+require('insert-css')(require('./css/index.css'));
 
-var Button = require('../../Button/js/index.js');
+// A normal include is not processed by partialify
+var Button = require('Button');
 
 module.exports = function(buttonLabels) {
   this.el = document.createElement('div');
